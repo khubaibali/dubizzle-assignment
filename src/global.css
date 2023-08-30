@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    flex-direction: column;
+    padding-block: 10px;
+    margin-block: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.gist-header{
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.createdUpdated {
+    display: flex;
+    gap: 10px;
+}
+
+.bg-blue{
+    color: #539bf5;
+}
+
+.gist-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.gist-header img{
+    border-radius: 100%;
+    width: 3rem; 
+}
+.gist-header h3{
+    font-size: 12px;
+    color: #539bf5;
+}
+.gist-header .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span svg{
+    fill: #539bf5;
+}
